@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="sidebar">
+      <div class="s-nav" style="opacity: 1">
+        <div id="home_btn">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+        <div id="search_btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+      <div class="s-library">
+        <div class="lib-header">
+          <div class="lib_btn">
+            <img src="./assets/library_icon.png" id="img" />
+            <a href="#">Your Library</a>
+          </div>
+          <div class="btns">
+            <a><i class="fa-solid fa-plus"></i></a>
+            <a><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="lib-content">
+          <div class="f-block">
+            <p>Create your first playlist</p>
+            <p style="font-size: 14px">It's easy, we'll help you</p>
+            <br />
+            <span><button id="button">Create playlistS</button></span>
+          </div>
+          <div class="s-block">
+            <p>Let's find some podcasts to follow</p>
+            <p style="font-size: 14px">
+              We'll keep you updated on new episodes
+            </p>
+            <br />
+            <span><button id="button">Browse podcasts</button></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <header class="mc-header">
+        <button id="b-btn">
+          <img src="./assets/backward_icon.png" />
+        </button>
+        <button id="f-btn">
+          <img src="./assets/forward_icon.png" />
+        </button>
+        <div class="mc-user">
+          <span><button id="button">Explore Premium</button></span>
+          <span><button id="button1">
+              <i class="fa-regular fa-circle-down"><span>Install App</span></i>
+            </button></span>
+          <button id="mc-btns">
+            <i class="fa-regular fa-bell"></i>
+          </button>
+          <button id="mc-btns">
+            <i class="fa-regular fa-user"></i>
+          </button>
+        </div>
+      </header>
+      <div class="mainc">
+        <div class="banner">
+          <div class="bannert">
+            <h2>Your 2023 Wrapped</h2>
+            <br />
+            <p style="font-weight: 500">Unwrap your listening highlights</p>
+            <br />
+            <span><button id="button2">
+                <span>Check it out</span><i class="fa-solid fa-up-right-from-square button2"></i></button></span>
+          </div>
+
+        </div>
+        <section class="rec_played">
+          <div>
+            <h2><a href="#">Recently Played</a></h2>
+            <span><a href="#">Show all</a></span>
+          </div>
+          <div class="rec_cards">
+            <div class="cards">
+
+              <img src="./assets/rr.png">
+              <p>Ranchhod Rangila</p>
+              <a>Rajesh Ahir, Sabhiben Ahir</a> </a>
+
+
+            </div>
+            <div class="cards">
+              <img src="./assets/rsr.png">
+              <p>Ram Siya Ram</p>
+              <a>Sachet-Parampara, Sachet Tandon,...</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/chaleya.png">
+              <p>Chaleya(From "Jawan")</p>
+              <a>Anirudh Ravichander, Arijit Singh</a> </a>
+            </div>
+          </div>
+
+        </section>
+        <section class="recommend">
+          <div>
+            <h2><a href="#">Recommended for You</a></h2>
+            <span><a href="#">Show all</a></span>
+          </div>
+          <div class="recommend_cards">
+            <div class="cards">
+              <img src="./assets/card1img.jpeg">
+              <p>Top 50 Global Hits</p>
+              <a>Various Artists</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/card2img.jpeg">
+              <p>Mahiye Jinna Sona</p>
+              <a>Darshan Raval</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/card3img.jpeg">
+              <p>Mere Paas Tum Ho</p>
+              <a>Rahat Fateh Ali Khan</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/card4img.jpeg">
+              <p>Naa Reddy (From "Leo")</p>
+              <a>Anirudh Ravichander, Thalapathy Vijay</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/animal.png">
+              <p>Arjan Vailly (From "Animal")</p>
+              <a>Mannan Bhardwaj, Bhupinder Babbal</a> </a>
+            </div>
+          </div>
+        </section>
+        <section class="mood_music">
+          <div>
+            <h2><a href="#">Mood</a></h2>
+            <span><a href="#">Show all</a></span>
+          </div>
+          <div class="mood_cards">
+            <div class="cards">
+              <img src="./assets/mood_img1.png">
+              <p>Peaceful Meditation</p>
+              <a>Breathe. Sense. Feel. Transcend</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/mood_img2.png">
+              <p>Happy Beats!</p>
+              <a>Feel-good dance music!</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/mood_img3.png">
+              <p>Peaceful Piano</p>
+              <a>Peaceful piano to help you slow down</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/mood_img4.png">
+              <p>Mal de Amores</p>
+              <a>La casa de los corazones rotos.</a> </a>
+            </div>
+            <div class="cards">
+              <img src="./assets/mood_img5.png">
+              <p>Mellow Classics</p>
+              <a>Relax with these timeless tunes.</a> </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="company_info">
+            <div class="info info1">
+              <p>Company</p>
+              <span id="span">About</span>
+              <span id="span">Jobs</span>
+              <span id="span">For the Record</span>
+
+            </div>
+            <div class="info">
+              <p>Communities</p>
+              <span id="span">For Artists</span>
+              <span id="span">For Developers</span>
+              <span id="span">Advertising</span>
+              <span id="span">Investors</span>
+              <span id="span">Vendors</span>
+
+            </div>
+            <div class="info">
+              <p>Useful Links</p>
+              <span id="span">Support</span>
+              <span id="span">Free Mobile App</span>
+            </div>
+            <div class="info info4">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+          </div>
+          <div class="company_rights">
+            <span id="span">Legal</span>
+            <span id="span">Privacy Center</span>
+            <span id="span">Privacy Policy</span>
+            <span id="span">Cookies</span>
+            <span id="span">About Ads</span>
+            <span id="span">Accessibility</span>
+            <span id="span">Notice at Collection</span>
+            <span id="span">Your Privacy Choices</span>
+          </div>
+        </section>
+
+      </div>
+    </div>
+    <div class="player">
+      <div class="current_playing">
+        <img src="./assets/animal.png">
+        <div class="div">
+          <span>Arjan Vailly (From "Animal")</span>
+          <a>Mannan Bhardwaj, Bhupinder Babbal</a> </a>
+        </div>
+        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+      <div class="m-player">
+        <div class="pc-left">
+          <img src="./assets/player_icon1.png">
+          <img src="./assets/player_icon2.png">
+        </div>
+        <div class="play-btn">
+          <img src="./assets/player_icon3.png">
+
+        </div>
+        <div class="pc-right">
+          <img src="./assets/player_icon4.png">
+          <img src="./assets/player_icon5.png">
+        </div>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+      </div>
+      <div class="right-sec">
+        <i class="fa-solid fa-play"></i>
+        <i class="fa-solid fa-list-ul"></i>
+        <i class="fa-solid fa-desktop"></i>
+        <i class="fa-solid fa-volume-low"></i>
+        <i class="fa-solid fa-expand"></i>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
